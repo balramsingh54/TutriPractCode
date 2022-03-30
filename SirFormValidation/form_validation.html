@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>form validation</title>
+</head>
+
+<body>
+	<header class="sticky">
+		<div class="sticky">
+			<ul>
+				<li id="logo"><img src="Image/domain_logo.svg" style="width: 110px;"></li>
+				<li><a href="#"><button id="signup">Signup</button></a></li>
+				<li class="hvr"><a href="#">Login</a></li>
+				<li class="hvr"><a href="#">Find Jobs</a></li>
+			</ul>
+		</div>
+	</header>
+
+	<section>
+		<div class="parent-section">
+			<div style="padding-top: 45px; padding-left: 100px;">
+				<div class="float-child">
+					<div>
+						<img src="Image/register.svg" width="400px">
+					</div>
+				</div>
+				<div style="background-color:white; width: 655px; color: #595858;" class="float-child">
+					<div id="right-section">
+						<h3 style="text-align: center; font-size: 25px;">Let's Get Started</h3>
+						<div style="text-align: center;">
+							<button id="botton-form"><a id="google" href="/google-service/login?redirect_to=&amp;login=true">Register with Google</a></button>
+						</div>
+					</div>
+					<div style="padding: 5px 45px;">
+						<div class="horizontal hrznt">
+							<hr>
+						</div>
+						<div style="max-width: 20px;" class="horizontal">
+							<div style="text-align: center;">Or</div>
+						</div>
+						<div class="horizontal hrznt">
+							<hr>
+						</div>
+					</div>
+					<br><br><br><br>
+					<div style="padding: 0px 45px;">
+						<form action="" id="form1" name="signupform">
+							<div>
+								<div class="formdiv1">
+									<label for="firstname">First Name</label><br>
+									<input class="inputall" type="text" id="firstname" name="firstname" placeholder="First Name">
+									<span id="error_firstname"></span>
+								</div>
+								<div class="formdiv1">
+									<label for="lastname">Last Name</label><br>
+									<input class="inputall" type="text" id="lastname" name="lastname" placeholder="Last Name">
+									<span id="error_lastname"></span>
+								</div>
+							</div>
+							<div>
+								<div class="formdiv1">
+									<label for="email">Email Address</label><br>
+									<input class="inputall" type="email" id="email" name="email" placeholder="Email Address">
+									<span id="error_email"></span>
+								</div>
+								<div class="formdiv1">
+									<label for="mobile">Phone Number</label><br>
+									<input class="inputall" type="text" id="mobile" name="mobile" placeholder="Phone Number">
+									<span id="error_mobile"></span>
+								</div>
+							</div>
+							<div>
+								<div class="formdiv1">
+									<label for="password">Password</label><br>
+									<input class="inputall" type="password" id="password" name="password" placeholder="password" minlength="6">
+									<span id="error_confirpassword"></span>
+								</div>
+								<div class="formdiv1">
+									<label for="lastname">Confirm Password</label><br>
+									<input class="inputall" type="Password" id="confirmpassword" name="C_password" placeholder="Confirm Password">
+									<span id="error_confirpassword"></span>
+								</div>
+							</div>
+							<div>
+								<input id="submitform" type="submit" value="Create an Account" name="create an account">
+							</div>
+						</form>
+					</div>
+					<div style="padding: 0px 45px;">
+						<p style="font-size: 15px;">Already Registered? <a id="loginsubmt" href="">Login now!</a></p>
+					</div>
+					<div style="padding: 0px 45px;">
+						<p style="font-size: 15px; margin-bottom: 21px;">By signing up, you agree to our <a id="termscondition" href=""> Privacy Policy, Terms and conditions.</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div id="topfooter">
+			<div id="leftside" class="footer">
+				<div style="padding-left: 100px;">
+					<img src="Image/domain_logo.svg" style="width: 110px;">
+					<div>Make Money with Us</div>
+					<div>
+						<button id="assobuton">Become an Associate</button>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="fbottom">
+					<b>Legal</b>
+				</div>
+				<div class="fbottom">
+					Term & conditions
+				</div>
+				<div class="fbottom">
+					Privacy Policy
+				</div>
+			</div>
+			<div class="footer">
+				<div class="fbottom">
+					<b>About</b>
+				</div>
+				<div class="fbottom">
+					About Us
+				</div>
+				<div class="fbottom">
+					Team
+				</div>
+			</div>
+			<div class="footer">
+				<div class="fbottom">
+					<b>Help</b>
+				</div>
+				<div class="fbottom">
+					FAQs
+				</div>
+				<div class="fbottom">
+					Contact Us
+				</div>
+			</div>
+			<div class="footer">
+				<div class="fbottom">
+					<b>Follow Us</b>
+				</div>
+				<div class="fbottom"><i class="fa fa-facebook icn"></i>
+					facebook
+				</div>
+				<div class="fbottom"><i class="fa fa-twitter icn"></i>
+					twitter
+				</div>
+				<div class="fbottom"><i class="fa fa-instagram icn"></i>
+					Instagram
+				</div>
+			</div>
+		</div>
+	</footer>
+	<footer>
+		<div class="lastBottom">
+			<div style="padding-top:11px;">
+				©2022 Synkdup.com - All Right Reserved
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="myscripts.js"></script>
+</body>
+
+</html>

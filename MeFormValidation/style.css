@@ -1,0 +1,279 @@
+body{
+	font-family: 'Poppins', sans-serif;
+    color: #595858;
+}
+
+ul li{
+	border-bottom: none;
+	display: inline;
+	float: right;
+	text-decoration: none;
+	padding: 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #48495D;
+}
+
+a:hover {
+	border-bottom: 2px #48495D;
+}
+
+#signup{
+	font-size: 20px;
+    width: 100px;
+    color: white;
+    padding: 10px;
+    background-color: #48495D;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+    margin-top: -8px;
+}
+
+
+#signup:hover {
+	background-color: #31324A;
+}
+
+#logo {
+	float: left;
+}
+
+#joinus{
+	font-size: 20px;
+    width: 150px;
+    color: white;
+    padding: 10px;
+    background-color: #48495D;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.maincontainer{
+	position: absolute;
+	margin-left: auto;
+}
+
+.head{
+	position: fixed;
+}
+
+.associate{
+	float: right;
+	margin-top: 50px;
+	width: 50%;
+	padding: 50px;
+  	box-sizing: border-box;
+}
+
+.link{
+	text-decoration: none;
+	background-color: #EAEADA;
+	line-height: 60px;
+	padding: 15px;
+	margin: 20px;
+	border-radius: 25px;
+	color: #595858;
+}
+
+.btmbar{
+	margin-left: 400px;
+	text-align: center;
+	margin-top: 70px;
+	background-color: #f5faff;
+}
+
+.abc{
+	float: left;
+}
+
+.footer{
+	float: left;
+	width: 200px;
+	text-align: left;
+}
+
+.fbottom{
+	padding: 10px;
+}
+
+#leftside{
+	min-width: 410px;
+	text-align: left;
+	padding-left: 50px;
+}
+
+#assobuton{
+	margin-top: 30px;
+	font-size: 20px;
+    color: white;
+    padding: 10px;
+    background-color: #48495D;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+
+}
+
+#topfooter{
+	width: 100%; 
+	height: 200px; 
+	float: left; 
+	background-color: #f5faff;
+	padding-top: 50px;
+}
+
+.icn{
+	margin-left: 10px;
+}
+
+.lastBottom{
+	bottom: 0px;
+	height: 40px;
+	color: white;
+	width: 100%;
+	background-color: #2E4765;
+	float: left;
+	text-align: center;
+}
+
+.sticky{
+	position: -webkit-sticky;
+  	position: sticky;
+  	top: 0px;
+  	background-color: white;
+  	height: 67px;
+  	transition: all 0.5s ease;
+  	box-shadow: 1px 1px solid gray;
+}
+
+.parent-section{
+	background-color: #E5E9EB; 
+	height: 660px;
+}
+
+.float-child {
+    float: left;
+}
+
+.right-section{
+	text-align: center;
+}
+
+#google{
+	text-decoration: none;
+	color: #595858;
+	font-size: 16px;
+}
+
+#botton-form{
+	padding: 10px 50px;
+}
+
+.horizontal{
+	width: 46%;
+	float: left;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.formdiv1{
+	float: left;
+	width: 50%;
+	font-weight: bold;
+}
+
+.inputall{
+	margin-top: 10px;
+    height: 30px;
+    width: 85%;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+#submitform{
+	width: 95%;
+	background-color: #2e4765;
+	border: none;
+	border: none;
+    border-radius: 10px;
+    color: white;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#loginsubmt{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#termscondition{
+	text-decoration: none;
+}
+
+.inputall:focus{
+	border: 1px solid blue;
+	border-color: lightblue;
+}
+
+label::after{
+	content: "*";
+	color: red;
+	margin-left: 3px;
+}
+
+#error_firstname{
+	color: red;
+	font-weight: 100;
+	font-size: 15px;
+}
+
+#error_lastname{
+	color: red;
+	font-weight: 100;
+	font-size: 15px;
+}
+
+#error_email{
+	color: red;
+	font-weight: 100;
+	font-size: 15px;
+}
+#error_mobile{
+	color: red;
+	font-weight: 100;
+	font-size: 15px;
+}
+#error_password{
+	color: red;
+	font-weight: 100;
+	font-size: 15px;
+}
+
+#error_confirpassword{
+	color: red;
+	font-weight: 100;
+	font-size: 15px;
+}
+
+#eoror_password{
+	color: red;
+	font-weight: 100;
+	font-size: 15px;
+}
+
+#error_confirpassword{
+	color: red;
+	font-weight: 100;
+	font-size: 15px;
+}
