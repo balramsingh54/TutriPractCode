@@ -70,10 +70,9 @@
         	e.nextElementSibling.innerText= "";
     	}
 	}
-	var passdata;
+
 	function ValidatePassword(e, pattern) {
 		const currentFieldPlaceholder = e.attributes.placeholder.value;
-		passdata=e.value;
     	if (e.value.length < 6) {
         	e.nextElementSibling.innerText= `${currentFieldPlaceholder} should be minimum 6 character`;
         	e.focus();
@@ -84,19 +83,19 @@
     	}
 	}
 
-	function ValidatConfirmPassword(e) {
+	function ValidatConfirmPassword(e, pattern) {
 		const currentFieldPlaceholder = e.attributes.placeholder.value;
     	if (e.value== "" || e.value== null) {
-        	e.nextElementSibling.innerText= `${currentFieldPlaceholder} can't be blank`;
+        	e.nextElementSibling.innerText= `${currentFieldPlaceholder} cant be blank`;
         	e.focus();
         	return false;
     	}
-    	if ((e.value===document.getElementById('password').value)) {
-    		e.nextElementSibling.innerText= "";
+    	if (!pattern.test(e.value)) {
+    		e.nextElementSibling.innerText= "Email is not valid";
         	return true;
     	}
     	else{
-        	e.nextElementSibling.innerText= "Password doesn't match";
+        	e.nextElementSibling.innerText= "";
     	}
 	}
 
