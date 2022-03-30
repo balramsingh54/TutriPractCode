@@ -5,6 +5,7 @@
 		var mobile= document.getElementById('mobile').value;
 		var password= document.getElementById('password').value;
 		var confirmpassword= document.getElementById('confirmpassword').value;
+		console.log(signupform.value);
 	}
 
 	function validate(e, pattern) {
