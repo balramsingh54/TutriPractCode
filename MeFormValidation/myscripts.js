@@ -7,7 +7,6 @@
 		var confirmpassword= document.getElementById('confirmpassword').value;
 		console.log(signupform.value);
 	}
-
 	function validate(e, pattern) {
 		const currentFieldPlaceholder = e.attributes.placeholder.value;
     	if (e.value== "" || e.value== null) {
